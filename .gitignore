@@ -28,3 +28,6 @@
 
 # notes
 .notes.md
+
+# dotenv
+.env

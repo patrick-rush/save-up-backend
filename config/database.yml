@@ -51,4 +51,4 @@ production:
   <<: *default
   database: save_up_backend_production
   username: save_up_backend
-  password: <%= ENV['SAVE_UP_BACKEND_DATABASE_PASSWORD'] %>
+  password: ENV['SAVE_UP_BACKEND_DATABASE_PASSWORD']
